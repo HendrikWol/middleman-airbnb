@@ -1,0 +1,12 @@
+<div class="team-container">
+<h1 class="text-center">This template was built with <i class="fa fa-heart"></i> by:</h1>
+
+  <ul class="list-inline text-center">
+    <% data.users.each do |name, info| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{info.github_nickname}", class: "img-circle" %>
+        <h3><%= info.github_nickname.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+</div>
