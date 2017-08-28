@@ -1,0 +1,20 @@
+form {
+  background-color: #F5F5F5;
+  padding: 15px;
+  width: 350px;
+}
+
+.btn-danger {
+  width: 100%;
+  opacity: 0.7;
+  background-color: #E9322D;
+  color: white;
+  border: normal;
+  &:hover {
+    background-color: #E9322D;
+  }
+}
+
+.choose {
+  width: 100%;
+}
